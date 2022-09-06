@@ -9,7 +9,20 @@ import SwiftUI
 
 struct Zstack: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Rectangle() //사각형
+                .foregroundColor(.blue)
+                .frame(width: 300, height: 300)
+//                .zIndex(1) //쌓이는 순서
+                
+            Rectangle()
+                .foregroundColor(.gray)
+                .frame(width: 200, height: 200)
+            
+            Rectangle()
+                .foregroundColor(.black)
+                .frame(width: 100, height: 100)
+        }
     }
 }
 
