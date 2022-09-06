@@ -11,6 +11,9 @@
 		4BA27BD028C4CA09007D726C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA27BCF28C4CA09007D726C /* ContentView.swift */; };
 		4BA27BD228C4CA0A007D726C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA27BD128C4CA0A007D726C /* Assets.xcassets */; };
 		4BA27BD528C4CA0A007D726C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA27BD428C4CA0A007D726C /* Preview Assets.xcassets */; };
+		4BBB19AB28C6B948000658F1 /* VstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB19AA28C6B948000658F1 /* VstackView.swift */; };
+		4BBB19AD28C6B950000658F1 /* HstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB19AC28C6B950000658F1 /* HstackView.swift */; };
+		4BBB19AF28C6B95B000658F1 /* ZstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB19AE28C6B95B000658F1 /* ZstackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		4BA27BCF28C4CA09007D726C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BA27BD128C4CA0A007D726C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BA27BD428C4CA0A007D726C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BBB19AA28C6B948000658F1 /* VstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VstackView.swift; sourceTree = "<group>"; };
+		4BBB19AC28C6B950000658F1 /* HstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HstackView.swift; sourceTree = "<group>"; };
+		4BBB19AE28C6B95B000658F1 /* ZstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZstackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				4BA27BCD28C4CA09007D726C /* SwiftUI_StackApp.swift */,
 				4BA27BCF28C4CA09007D726C /* ContentView.swift */,
+				4BBB19AA28C6B948000658F1 /* VstackView.swift */,
+				4BBB19AC28C6B950000658F1 /* HstackView.swift */,
+				4BBB19AE28C6B95B000658F1 /* ZstackView.swift */,
 				4BA27BD128C4CA0A007D726C /* Assets.xcassets */,
 				4BA27BD328C4CA0A007D726C /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BBB19AB28C6B948000658F1 /* VstackView.swift in Sources */,
+				4BBB19AD28C6B950000658F1 /* HstackView.swift in Sources */,
+				4BBB19AF28C6B95B000658F1 /* ZstackView.swift in Sources */,
 				4BA27BD028C4CA09007D726C /* ContentView.swift in Sources */,
 				4BA27BCE28C4CA09007D726C /* SwiftUI_StackApp.swift in Sources */,
 			);
