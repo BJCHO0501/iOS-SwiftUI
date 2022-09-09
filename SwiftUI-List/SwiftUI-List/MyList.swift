@@ -7,6 +7,8 @@ struct MyList: View {
                Text("내용입니다")
             }
             .listRowInsets(EdgeInsets.init(top: 10, leading: 10, bottom: 10, trailing: 10)) //간격 커스텀으로 설정
+            .listRowBackground(Color.gray) //백그라운드 색설정
+            
             
             Section(header: Text("다른 헤더입니다")) {
                 ForEach(1...10, id: \.self) { index in
